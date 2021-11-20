@@ -1,0 +1,21 @@
+body {background-color: #33f3ff; text-align: center;}
+img {float: left; padding: 10px; position: relative; width: 500px; height: 300px; margin-top: 30px; margin-left: 50px;}
+#nav>li {display: inline-block; position: relative; vertical-align: bottom; margin-right: 25px;}
+li>a {display: block; width:140px; height: 20px; padding-top: 20px; text-decoration: none; border-radius: 5px; color: red;}
+li>a>span {font-weight: bold;}
+ul#nav a {display: block; padding: 5px 5px; background-color: #ff3; border-radius: 2px; border: 1px solid #aaa; text-decoration: none; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;}
+div#container {width: 75em; margin: 0 auto;}
+div#header>h1 {font-family: cursive; color: navy;}
+div#header>p {font-size: 20px; font-family: cursive; color: navy;}
+li>a>span {font-size: 1em; position: relative; width: inherit; text-align: left;}
+#main {width: 650px; margin-right: 10px; margin-left: 10px; float: right;}
+div#main {text-align: center;}
+table {position: relative; float: right; color: purple; width: 600px; padding: 10px;}
+tr {border:2px solid navy; position: relative; float: right; color: purple; width: 600px; padding: 10px;}
+th {font-size: 20px;}
+td {font-size: 20px;}
+div#footer {text-align: left; clear: both;}
+div#footer>h1 {font-family: cursive; color: navy;}
+div#footer>p {font-size: 20px; font-family: cursive; color: navy; width: 800px;}
+
+
