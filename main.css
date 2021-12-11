@@ -1,21 +1,22 @@
-body {background-color: #33f3ff; text-align: center;}
-img {float: left; padding: 10px; position: relative; width: 500px; height: 300px; margin-top: 30px; margin-left: 50px;}
-#nav>li {display: inline-block; position: relative; vertical-align: bottom; margin-right: 25px;}
+ul {text-align: left;}
+body {background-color: #33f3ff; font-size: 24px;}
+img {float: center; padding: 10px; position: relative; margin-top: 30px; margin-left: 150px; display: inline-block;}
+h1 {font-size: 48px; font-family: cursive; text-align: center;}
+body>h2 {font-size: 30px; text-align: center;}
+.logo { float: right; }
+.travis img {float: center;}
+.travis h1 {float: right; margin-right: 100px; font-family: cursive; color: navy;}
+h1 {color: navy; }
+p {font-size: 24px; text-align: left;}
+#nav>li {display: inline-block; position: relative; vertical-align: bottom;  margin-right: 25px; text-align: center;}
 li>a {display: block; width:140px; height: 20px; padding-top: 20px; text-decoration: none; border-radius: 5px; color: red;}
-li>a>span {font-weight: bold;}
+li>a>span {font-weight: bold; font-size:20px;}
 ul#nav a {display: block; padding: 5px 5px; background-color: #ff3; border-radius: 2px; border: 1px solid #aaa; text-decoration: none; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.27), 0 0 40px rgba(0, 0, 0, 0.06) inset;}
-div#container {width: 75em; margin: 0 auto;}
-div#header>h1 {font-family: cursive; color: navy;}
-div#header>p {font-size: 20px; font-family: cursive; color: navy;}
-li>a>span {font-size: 1em; position: relative; width: inherit; text-align: left;}
-#main {width: 650px; margin-right: 10px; margin-left: 10px; float: right;}
-div#main {text-align: center;}
-table {position: relative; float: right; color: purple; width: 600px; padding: 10px;}
-tr {border:2px solid navy; position: relative; float: right; color: purple; width: 600px; padding: 10px;}
-th {font-size: 20px;}
-td {font-size: 20px;}
-div#footer {text-align: left; clear: both;}
-div#footer>h1 {font-family: cursive; color: navy;}
-div#footer>p {font-size: 20px; font-family: cursive; color: navy; width: 800px;}
-
+.container {width: 75em; margin: 0 auto;}
+.header>p {font-size: 24px; font-family: cursive;}
+.main {text-align: center;}
+.footer {text-align: center; clear: both;}
+.footer>p {font-size: 24px; text-align: center; }
+.button {background-color: #d9f00c; border-radius: 3px; padding: 10px 20px; text-align: center; display: inline-block; margin-left: 100px;}
+.current {color: #f06b0c;}
 
