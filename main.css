@@ -15,8 +15,8 @@ ul#nav a {display: block; padding: 5px 5px; background-color: #ff3; border-radiu
 .container {width: 75em; margin: 0 auto;}
 .header>p {font-size: 24px; font-family: cursive;}
 .main {text-align: center;}
-.footer {text-align: center; clear: both;}
-.footer>p {font-size: 24px; text-align: center; }
+.secondary {text-align: center; clear: both;}
+.secondary>p {font-size: 24px; text-align: center; }
 .button {background-color: #d9f00c; border-radius: 3px; padding: 10px 20px; text-align: center; display: inline-block; margin-left: 100px;}
-.current {color: #f06b0c;}
+.footer {margin: auto; width: 60%; text-align: center; }
 
